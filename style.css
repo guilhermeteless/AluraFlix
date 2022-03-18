@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg');
+    background-color: black;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: white;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: white;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.filme {
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+#listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+}
+
+.form-wrapper {
+    margin: 0 0 15px;
+}
+
+.form-wrapper input {
+    display: inline;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.form-wrapper button {
+    border: 0;
+    color: white;
+    background-color: #da1e26;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
+
+body > img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+.nomeFilme {
+    width: 200px;
+    color: white;
+}
+
+.filme p {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 170px;
+    margin: 15px 1px 15px 15px;
+}
